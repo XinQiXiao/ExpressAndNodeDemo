@@ -4,7 +4,7 @@ function serveStaticFile(res, path, contentType, responseCode){
   if(!responseCode) 
     responseCode = 200;
   // console.log('res===>', res)
-  console.log(`path=${path} type=${contentType} code=${responseCode}`);
+  // console.log(`path=${path} type=${contentType} code=${responseCode}`);
   fs.readFile(__dirname+path, function(err, data){
     if(err){
       res.writeHead(500, {'Content-Type': 'text/plain'});

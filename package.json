@@ -1,0 +1,23 @@
+{
+  "name": "nodeexpressdemo",
+  "version": "1.0.0",
+  "description": "《Node与Express》学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinQiXiao/ExpressAndNodeDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinQiXiao/ExpressAndNodeDemo/issues"
+  },
+  "homepage": "https://github.com/XinQiXiao/ExpressAndNodeDemo#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express3-handlebars": "^0.5.2"
+  }
+}
